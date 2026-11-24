@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CampusSpend - Student Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <main>
+    <h1>Student Expense Tracker</h1>
+    <p class="intro">Keep your everyday spending organised.</p>
+
+    <section class="card">
+      <h2>Add an expense</h2>
+
+      <label for="expense-name">Expense name</label>
+      <input id="expense-name" type="text" placeholder="For example, lunch">
+
+      <label for="expense-amount">Amount</label>
+      <input id="expense-amount" type="number" placeholder="Enter amount">
+
+      <label for="category">Category</label>
+      <select id="category">
+        <option>Food</option>
+        <option>Travel</option>
+        <option>Shopping</option>
+        <option>Education</option>
+        <option>Other</option>
+      </select>
+
+      
+      <button id="add-expense">Add expense</button>
+      </section>
+
+    <section class="card">
+      <h2>Your expenses</h2>
+
+      <label for="filter">Filter by category</label>
+      <select id="filter">
+        <option>All categories</option>
+        <option>Food</option>
+        <option>Travel</option>
+        <option>Shopping</option>
+        <option>Education</option>
+        <option>Other</option>
+      </select>
+
+      <div class="expense">
+        <div>
+          <strong>Bus pass</strong>
+          <p>Travel</p>
+        </div>
+        <strong>₹2,000</strong>
+      </div>
+
+      <div class="expense">
+        <div>
+          <strong>New clothes</strong>
+          <p>Shopping</p>
+        </div>
+        <strong>₹1,000</strong>
+      </div>
+
+      <div class="expense">
+        <div>
+          <strong>Lunch</strong>
+          <p>Food</p>
+        </div>
+        <strong>₹1000</strong>
+      </div>
+
+      <div class="expense">
+        <div>
+          <strong>Notebook</strong>
+          <p>Education</p>
+        </div>
+        <strong>₹500</strong>
+      </div>
+
+      <div class="total">
+        <span>Total spent</span>
+        <strong>₹4500</strong>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+body {
+  background-color: aliceblue;
+  color: darkslategray;
+  font-family: Arial;
+  margin: 0;
+}
+header {
+  background-color: white;
+  padding: 18px 8%;
+  border-bottom: 1px solid lightgray;
+}
+.company {
+  color: darkblue;
+  font-size: 22px;
+  font-weight: bold;
+}
+.tagline {
+  color: gray;
+  float: right;
+  margin-top: 6px;
+}
+main {
+  width: 600px;
+  max-width: 85%;
+  margin: 35px auto;
+}
+h1 {
+  color: darkblue;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.intro, .note {
+  color: gray;
+  text-align: center;
+}
+.card {
+  background-color: white;
+  padding: 22px;
+  margin-top: 20px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+h2 {
+  color: darkblue;
+  margin-top: 0;
+}
+label {
+  display: block;
+  margin-top: 14px;
+}
+input, select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px;
+  margin-top: 6px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+button {
+  background-color: royalblue;
+  color: white;
+  padding: 11px 18px;
+  margin-top: 16px;
+  border: 0;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: darkblue;
+}
+.note {
+  font-size: 13px;
+}
+.expense, .total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid lightgray;
+}
+.expense p {
+  color: gray;
+  margin-bottom: 0;
+}
+.total {
+  border-bottom: 0;
+  color: darkblue;
+}
